@@ -43,5 +43,10 @@ namespace ByteBankImportacaoExportacao.Modelos
 
             Saldo += valor;
         }
+
+        public override string ToString()
+        {
+            return $"Agencia: {Agencia}, Número: {Numero}, Saldo: {Saldo}, Titular: {Titular.Nome}";
+        }
     }
 }
