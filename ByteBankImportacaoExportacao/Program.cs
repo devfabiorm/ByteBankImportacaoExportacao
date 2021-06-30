@@ -8,8 +8,8 @@ namespace ByteBankImportacaoExportacao
     {
         static void Main(string[] args)
         {
-            CriarArquivo();
-
+            UsandoStreamWriter();
+            Console.WriteLine("Finalizando...");
             Console.ReadLine();
         }
     }
