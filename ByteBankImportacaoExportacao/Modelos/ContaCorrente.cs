@@ -46,7 +46,7 @@ namespace ByteBankImportacaoExportacao.Modelos
 
         public override string ToString()
         {
-            return $"Agencia: {Agencia}, Número: {Numero}, Saldo: {Saldo}, Titular: {Titular.Nome}";
+            return $"Titular: {Titular.Nome}, Agencia: {Agencia}, Número: {Numero}, Saldo: {Saldo}";
         }
     }
 }
